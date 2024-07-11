@@ -1,5 +1,5 @@
 {
-  "name": "ngx-bootstrap-growl",
+  "name": "@niceguys/ngx-bootstrap-growl",
   "version": "0.0.8",
   "description": "Service to show growl in Angular >= 2 with Twitter Bootsrap 4",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trankin/ngx-bootstrap-growl.git"
+    "url": "git+https://github.com/trankin/ngx-bootstrap-growl.git"
   },
   "keywords": [
     "bootstrap",
@@ -24,7 +24,6 @@
     "url": "https://github.com/trankin/ngx-bootstrap-growl/issues"
   },
   "homepage": "https://github.com/trankin/ngx-bootstrap-growl#readme",
-  "dependencies": {},
   "devDependencies": {
     "@angular/common": "~12.0.4",
     "@angular/compiler": "~12.0.4",
@@ -43,5 +42,8 @@
     "rxjs": "^6.6.7",
     "zone.js": "~0.11.4"
   },
-  "typings": "./lib/index.d.ts"
+  "typings": "./lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  }
 }
