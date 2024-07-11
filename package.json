@@ -1,0 +1,47 @@
+{
+  "name": "ngx-bootstrap-growl",
+  "version": "0.0.8",
+  "description": "Service to show growl in Angular >= 2 with Twitter Bootsrap 4",
+  "scripts": {
+    "lint": "npm run tslint \"src/*.ts\"",
+    "tslint": "tslint",
+    "prepublish": "npm run lint && ngc --declaration && copyfiles -f src/*.js src/*.js.map src/*.d.ts src/*.metadata.json ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trankin/ngx-bootstrap-growl.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "angular2",
+    "growl",
+    "alert"
+  ],
+  "main": "lib/index.js",
+  "author": "Moritz Benzenhoefer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trankin/ngx-bootstrap-growl/issues"
+  },
+  "homepage": "https://github.com/trankin/ngx-bootstrap-growl#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/common": "~12.0.4",
+    "@angular/compiler": "~12.0.4",
+    "@angular/compiler-cli": "~12.0.4",
+    "@angular/core": "~12.0.4",
+    "core-js": "^2.5.4",
+    "@types/node": "^15.12.2",
+    "copyfiles": "^2.1.0",
+    "tslint": "~6.1.0",
+    "typescript": "~4.2.3",
+    "rxjs": "^6.6.7",
+    "zone.js": "~0.11.4"
+  },
+  "peerDependencies": {
+    "@angular/core": "~12.0.4",
+    "rxjs": "^6.6.7",
+    "zone.js": "~0.11.4"
+  },
+  "typings": "./lib/index.d.ts"
+}
